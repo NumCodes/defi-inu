@@ -1,0 +1,24 @@
+{
+  "name": "tscoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "numcodes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-device": "^0.4.2",
+    "express-session": "^1.18.0",
+    "express-useragent": "^1.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
